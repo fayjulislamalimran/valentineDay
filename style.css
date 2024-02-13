@@ -1,9 +1,23 @@
+body {
+  background-color: #333;
+  /* display: block; */
+  display: inline;
+}
+marquee{
+  padding: 0%;
+  margin: 0%;
+}
+p{
+  text-align: center;
+  color: aliceblue;
+}
 #container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  /* background-color: rgb(238, 144, 255); */
+  /* min-height: 100vh; */
+  margin-top: 0%;
+  padding-top: 0%;
 }
 .book {
   position: relative;
@@ -157,6 +171,6 @@
   top: 60px;
   font-family: "Protest Riot", sans-serif;
 }
-img{
-    border-radius: 10px;
+img {
+  border-radius: 10px;
 }
